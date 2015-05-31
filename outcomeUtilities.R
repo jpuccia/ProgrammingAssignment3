@@ -45,6 +45,9 @@ getRankIndex <- function(rank){
         else if (rank == "best" || rank == "worst"){
                 rankIndex <- 1
         }
+        else{
+                stop("invalid rank")
+        }
 }
 
 ## validState
